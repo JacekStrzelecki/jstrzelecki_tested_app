@@ -6,7 +6,7 @@ services:
     platform: linux/amd64
     restart: always
     ports:
-      - "8080:8080"
+      - "4001:4001"
     hostname: backend
     extra_hosts:
       - "host.docker.internal:host-gateway"
